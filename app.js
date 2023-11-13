@@ -26,7 +26,7 @@ async function main() {
   await mongoose.connect(process.env.MONGODB_CONNECTION_STRING);
 }
 
-debug('hello');
+debug('hello!');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
